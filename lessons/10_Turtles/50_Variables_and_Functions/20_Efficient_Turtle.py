@@ -21,10 +21,10 @@ def draw_polygon(sides):
     angle = 90                           o
     
     for i in range(5):                 # Loop through the number of 
-        tina.forward(forward)                              # Move tina d di
-        tina.left(left)                         # Turn tina left by the le
-
-        draw_polygon(10,10)              # Draw a square
+        tina.forward(                              # Move tina
+        tina.left(                    # Turn tina left by 
+        
+    draw_polygon(10,10)              # Draw a square
 
 ...                                      # Move tina to another spot on the screen
 
