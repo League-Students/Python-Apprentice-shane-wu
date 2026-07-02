@@ -22,17 +22,6 @@ tina.speed(2)                           # Move at a moderate speed, not too fast
 
 # Repeat forward + left three more times to finish the square.
 
-
-tina.forward(150)                       # Move tina forward by the forward distance
-tina.left(90)                           # Turn tina left by 90 degrees
-
-tina.forward(150)
-tina.left(90)
-
-tina.forward(150)
-tina.left(90)
-
-tina.forward(150)
-tina.left(90)
-
-turtle.exitonclick()                    # Close the window when we click on it
+for i in range(4):
+    tina.forward(150)                       # Move tina forward by the forward distance
+    tina.left(90)                           # Turn tina left by 90 degrees
