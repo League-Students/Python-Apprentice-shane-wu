@@ -16,4 +16,5 @@ name: Loop With Turtle
 ... # Your code her
 
 import turtle
-t
+tina = turtle.Turtle()
+
