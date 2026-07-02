@@ -24,6 +24,6 @@ tina.pencolor("orange")
 tina.forward(100)
 tina.left(110)
 tina.pencolor("red")
-tina.forward
+tina.forward(90)
 
 turtle.exitonclick()                    # Close the window when we click on it
