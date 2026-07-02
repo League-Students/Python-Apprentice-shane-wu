@@ -23,7 +23,7 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 tina.begin_fill()
 tina.circle(100)
 tina.end_fill()
-tina.goto(-500,100)
+tina.goto(200,100)
 tina.begin_fill()
 tina.circle(100)
 tina.end_fill()
