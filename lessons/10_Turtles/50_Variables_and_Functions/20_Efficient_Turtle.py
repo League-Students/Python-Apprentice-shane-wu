@@ -8,3 +8,4 @@ def draw_polygon(sides,size)
 
 angles = 360/sides
 
+tina.pendown
