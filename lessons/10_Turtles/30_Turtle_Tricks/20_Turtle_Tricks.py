@@ -21,9 +21,9 @@ tina.pencolor("orange")
 
 for i in range(3):
     tina.forward(100)
-tina.left(72)
-tina.forward(100)
-tina.left(72)
-tina.forward(100)
+    tina.left(72)
+    tina.forward(100)
+    tina.left(72)
+    tina.forward(100)
 
 turtle.exitonclick()                    # Close the window when we click on it
