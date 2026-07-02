@@ -25,4 +25,4 @@ def draw_polygon(sides):
         tina.left(72)              
         
     
-turtle.exitonclick()                     # Close the window when we click on it
+turtle.exitonclick()                     
