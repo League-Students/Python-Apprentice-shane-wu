@@ -98,3 +98,5 @@ draw_body(tina)                          # Draw the body of the turtle
 say_hello(tina)                          # Make tina say hello
 
 turtle.exitonclick()                     # Close the window when we click on it
+
+
