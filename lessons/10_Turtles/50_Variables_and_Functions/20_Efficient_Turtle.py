@@ -18,11 +18,11 @@ tina.speed(2)                            # Move at a moderate speed, not too fas
 
 def draw_polygon(sides):
 
-    angle = 90                          # Calculate angle from number of sides
+    angle = 90                           o
     
-    for i in range(5):                 # Loop through the number of sides
-    tina.forward(forward)                              # Move tina forward by the forward distance
-    tina.left(left)                         # Turn tina left by the left turn
+    for i in range(5):                 # Loop through the number of 
+        tina.forward(forward)                              # Move tina d di
+        tina.left(left)                         # Turn tina left by the le
 
         draw_polygon(10,10)              # Draw a square
 
