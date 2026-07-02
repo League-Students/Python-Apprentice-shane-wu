@@ -18,7 +18,7 @@ tina.speed(2)                            # Move at a moderate speed, not too fas
 
 def draw_polygon(sides):
 
-    angle = 90                           o
+    angle = 90                           
     
     for i in range(5):                 
         tina.forward(50)                              # Move tina
