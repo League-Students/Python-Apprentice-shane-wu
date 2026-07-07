@@ -18,28 +18,28 @@ window = turtle.Screen()
 window.bgcolor("white")
 
 # Make a new turtle
-my_turtle = turtle.Turtle()
+bob = turtle.Turtle()
 
 # This code sets our shape to a turtle
-my_turtle.shape("turtle")
+bob.shape("turtle")
 
 # Set your turtle's speed
-my_turtle.speed(0)
+bob.speed(0)
 
 # Set your turtle's color
-my_turtle.color("green")
+bob.color("green")
 
 # Use a loop to repeat the code below 50 times
 for i in range(50):
 
     # Set the turtle color to a random color
-    my_turtle.pencolor(get_random_color())
+    bob.pencolor(get_random_color())
 
     # Move the turtle (9*i) pixels. 'i' is the loop variable
-    my_turtle.forward(9 * i)
+    bob.forward(9 * i)
 
     # Turn the turtle (360/7 + i*5) degrees to the right
-    my_turtle.right(360 / 7 + i*5)
+    bob.right(360 / 7 + i*5)
 
     # Change the turtle width to 'i' (the loop variable)
     my_turtle.width(i)
