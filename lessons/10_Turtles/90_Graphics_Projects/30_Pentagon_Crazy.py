@@ -27,17 +27,17 @@ my_turtle.shape("turtle")
 my_turtle.speed(0)
 my_turtle.width(1)
 
-sides = 5
+sides = 100
 angle = 360 / sides
 
 for i in range(1000000):
-    if i == 99:
-        my_turtle.width(5)
+    if i == 1000:
+        my_turtle.width(500)
     if i == 150:
-        my_turtle.width(8)
+        my_turtle.width(1)
     my_turtle.pencolor(get_next_color(i))
     my_turtle.forward(i)
-    my_turtle.right(angle + 16)
+    my_turtle.right(angle + 100)
 
 my_turtle.hideturtle()
 
