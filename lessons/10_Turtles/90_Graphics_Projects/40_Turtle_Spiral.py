@@ -42,7 +42,7 @@ for i in range(50):
     bob.right(360 / 7 + i*5)
 
     # Change the turtle width to 'i' (the loop variable)
-    my_turtle.width(i)
+    bob.width(i)
 
     # Check the pattern against the picture in the recipe. If it matches, you are done.
 
