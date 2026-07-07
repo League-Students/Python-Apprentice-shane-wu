@@ -21,9 +21,12 @@ for color in colors:                            # loop through the colors
     tina.pencolor("blue")
     tina.forward(100)
     tina.left(90)
-    
     tina.pencolor("black")
+    tina.forward(100)
+    tina.left(90)
     tina.pencolor("orange")
+    tina.forward(100)
+    tina.left(90)
 
 # 2) Make another square, but put the colors in reverse order, using a negative index. 
 
