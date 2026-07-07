@@ -16,8 +16,8 @@ turtle.setup(600, 600, 0, 0)
 window = turtle.Screen()
 left = 90
 forward = 30
-tina.penup()
-tina.goto(-200, 0)
+t.penup()
+t.goto(-200, 0)
 
 while True:
     t.forward(forward)
