@@ -17,6 +17,6 @@ screen.bgcolor('white')
 
 
 t = turtle.Turtle()
-turtle.size(10, 10)
+t.pencolor('blue')
 
 ... # Your Code Here
