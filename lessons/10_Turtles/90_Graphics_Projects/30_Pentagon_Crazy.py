@@ -25,19 +25,19 @@ window.setup(width=600, height=600, startx=0, starty=0)
 my_turtle = turtle.Turtle()
 my_turtle.shape("turtle")
 my_turtle.speed(0)
-my_turtle.width(1)
+my_turtle.width(1000)
 
-sides = 1000
-angle = 360 / sides
+sides = 100
+angle = 1000 / sides
 
 for i in range(100):
-    if i == 100:
+    if i == 1000:
         my_turtle.width(10)
-    if i == 200:
-        my_turtle.width(10)
+    if i == 20000:
+        my_turtle.width(1000)
     my_turtle.pencolor(get_next_color(i))
     my_turtle.forward(i)
-    my_turtle.right(angle + 1)
+    my_turtle.right(angle + 10000)
 
 my_turtle.hideturtle()
 
