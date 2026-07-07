@@ -12,7 +12,8 @@ name: Crazy Spiral
 
 import turtle
 t = turtle.Turtle()
-
+turtle.setup(600, 600, 0, 0)
+window = turtle.screen()
 
 # 1) Complete make_a_shape() to make the turtle move in some pattern. 
 # For instance, you can make it go left 30 degrees, then forward 50 pixels, 
