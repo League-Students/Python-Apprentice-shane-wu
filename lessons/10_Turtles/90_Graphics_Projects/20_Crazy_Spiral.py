@@ -13,7 +13,7 @@ name: Crazy Spiral
 import turtle
 t = turtle.Turtle()
 turtle.setup(600, 600, 0, 0)
-window = turtle.screen()
+window = turtle.Screen()
 left = 90
 forward = 30
 
