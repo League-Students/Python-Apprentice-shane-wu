@@ -16,6 +16,6 @@ screen.setup(width=600, height=600)
 screen.bgcolor('white')
 
 t = turtle.Turtle()
-t.size(10, 10)
+turtle.size(10, 10)
 
 ... # Your Code Here
