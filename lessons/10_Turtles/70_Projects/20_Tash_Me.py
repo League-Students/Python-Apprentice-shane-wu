@@ -10,6 +10,14 @@ Hint: See the `10_More_Turtle_Programs` section labeled 'Set a Background Pictur
 """
 import turtle
 
+turtle.setup(width=600, height=600)         # Set the size of the window
+
+tina = turtle.Turtle()                      # Create a turtle named tina
+
+screen = turtle.Screen()                    # Get the screen that tina is on
+set_background_image(screen, "emoji.png")   # Set the background image of the screen
+
+
 def set_background_image(window, image_name):
     """Set the background image of the turtle window to the image with the given name."""
     from pathlib import Path                                        # Import Path from pathlib module
@@ -23,11 +31,5 @@ def set_background_image(window, image_name):
     window.setup(image.width, image.height, startx=0, starty=0)     # Set window size to image size
     window.bgpic(image_path)                                        # Set the background picture of the window
 
-turtle.setup(width=600, height=600)         # Set the size of the window
-
-tina = turtle.Turtle()                      # Create a turtle named tina
-
-screen = turtle.Screen()                    # Get the screen that tina is on
-set_background_image(screen, "emoji.png")   # Set the background image of the screen
 
 turtle.exitonclick() 
