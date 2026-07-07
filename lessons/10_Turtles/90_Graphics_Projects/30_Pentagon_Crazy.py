@@ -32,7 +32,7 @@ angle = 360 / sides
 
 for i in range(359):
     if i == 99:
-        my_turtle.width(2)
+        my_turtle.width(5)
     if i == 200:
         my_turtle.width(3)
     my_turtle.pencolor(get_next_color(i))
