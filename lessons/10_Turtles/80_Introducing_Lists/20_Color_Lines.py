@@ -16,9 +16,9 @@ colors = [ 'red', 'blue', 'black', 'orange']    # define a list of colors
 
 for color in colors:                            # loop through the colors
     tina.pencolor("red")
-    tina.pencolor("")
-    tina.pencolor("")
-    tina.pencolor("")
+    tina.pencolor("blue")
+    tina.pencolor("black")
+    tina.pencolor("orange")
 
 # 2) Make another square, but put the colors in reverse order, using a negative index. 
 
