@@ -19,7 +19,7 @@ t = turtle.Turtle()
 t.pencolor('blue')
 
 from pathlib import Path                        # Import Path from pathlib module
-    image_dir = Path('leaguebot_bot.gif').parent.parent / "images"    # Define the directory containing images
-    image_path = str(90 / 'leaguebot_bot.gif')  
+image_dir = Path('leaguebot_bot.gif').parent.parent / "images"    # Define the directory containing images
+image_path = str(90 / 'leaguebot_bot.gif')  
 
 ... # Your Code Here
