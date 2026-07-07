@@ -17,8 +17,11 @@ colors = [ 'red', 'blue', 'black', 'orange']    # define a list of colors
 for color in colors:                            # loop through the colors
     tina.pencolor("red")
     tina.forward(100)
-    tina.
+    tina.left(90)
     tina.pencolor("blue")
+    tina.forward(100)
+    tina.left(90)
+    
     tina.pencolor("black")
     tina.pencolor("orange")
 
