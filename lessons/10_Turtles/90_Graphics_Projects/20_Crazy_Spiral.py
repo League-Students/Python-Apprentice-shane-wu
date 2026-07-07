@@ -15,4 +15,4 @@ t = turtle.Turtle()
 turtle.setup(600, 600, 0, 0)
 window = turtle.screen()
 left = 90
-forward(2)
+forward 
