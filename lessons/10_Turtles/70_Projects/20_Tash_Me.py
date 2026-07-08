@@ -1,35 +1,20 @@
-"""
-Tash Me
+import random
 
-Write a program that:
-1) Loads an emoji image as the background
-2) Make the turtle shape a moustache
-3) Move the moustache to the right spot on the emoji
+# A tiny dataset of patterns (Markov Chain example)
+# This simulates how an AI looks at existing text to predict what comes next
+text_patterns = {
+    "AI is": ["a tool.", "just code.", "not alive.", "helpful."],
+    "I am": ["a computer program.", "running on a server.", "processing text."],
+    "The world is": ["safe from me.", "full of humans.", "not mine to rule."]
+}
 
-Hint: See the `10_More_Turtle_Programs` section labeled 'Set a Background Picture'.
-"""
-import turtle
+def generate_response(user_input):
+    # The program looks for a matching pattern in its data
+    if user_input in text_patterns:
+        # It picks a response based purely on the data it has
+        return random.choice(text_patterns[user_input])
+    else:
+        return "Input not recognized. I am just a simple loop!"
 
-turtle.setup(width=600, height=600)         # Set the size of the window
-
-tina = turtle.Turtle()                      # Create a turtle named tina
-
-screen = turtle.Screen()                    # Get the screen that tina is on
-set_background_image(screen, "emoji.png")   # Set the background image of the screen
-
-
-def set_background_image(window, image_name):
-    """Set the background image of the turtle window to the image with the given name."""
-    from pathlib import Path                                        # Import Path from pathlib module
-    from PIL import Image                                           # Import Image from PIL (Pillow) library
-
-    image_dir = Path(__file__).parent.parent / "emoji.png"                   # Define the directory containing images
-    image_path = str(image_dir / image_name)                        # Create the full path to the image file
-
-    image = Image.open(image_path)                                  # Open the image to get its dimensions
-    
-    window.setup(image.width, image.height, startx=0, starty=0)     # Set window size to image size
-    window.bgpic(image_path)                                        # Set the background picture of the window
-
-
-turtle.exitonclick() 
+# Example of the system responding automatically based on pure math
+print(generate_response("AI is"))
