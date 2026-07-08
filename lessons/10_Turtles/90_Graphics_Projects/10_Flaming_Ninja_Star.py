@@ -17,6 +17,9 @@ def fractal_triangle(size,depth):
             tina.forward(size)
             tina.left(120)
 
+tina.penup()
+tina.goto(-275, -275)
+
 fractal_triangle(200,1)
 
 
