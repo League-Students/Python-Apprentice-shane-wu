@@ -18,9 +18,10 @@ def fractal_triangle(size,depth):
             tina.left(120)
 
 tina.penup()
-tina.goto(-275, -275)
+tina.goto(-275,-275)
+tina.pendown()
 
-fractal_triangle(200,1)
+fractal_triangle(200,4)
 
 
 turtle.exitonclick()
