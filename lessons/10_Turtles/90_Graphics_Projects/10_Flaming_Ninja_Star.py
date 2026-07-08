@@ -21,7 +21,7 @@ tina.penup()
 tina.goto(-275,-275)
 tina.pendown()
 
-fractal_triangle(550,4)
+fractal_triangle(550,10)
 
 
 turtle.exitonclick()
