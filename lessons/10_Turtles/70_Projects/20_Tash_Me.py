@@ -44,19 +44,20 @@ def open_cam_3():
     show_animatronics()
 
 def open_cam_4():
-    cam_num = 3
     global cam_num
+    cam_num = 4
     screen.bgcolor(cam_colors[3])
     show_animatronics()
 
 def open_cam_5():
-    
     global cam_num
+    cam_num = 5
     screen.bgcolor(cam_colors[4])
     show_animatronics()
 
 def exit_cam():
     global cam_num
+    cam_num = 0
     print("cam exite1d")
     screen.bgcolor("yellow")
     show_animatronics()
