@@ -27,12 +27,14 @@ def show_animatronics(cam_num):
 
 def open_cam_1():
     global cam_num
-    can
+    can_num = 1
     print("cam 1 open")
     screen.bgcolor(cam_colors[0])
     show_animatronics()
 
 def open_cam_2():
+    global cam_num
+    can_num = 2
     print("cam 2 open")
     screen.bgcolor(cam_colors[1])
     show_animatronics()
