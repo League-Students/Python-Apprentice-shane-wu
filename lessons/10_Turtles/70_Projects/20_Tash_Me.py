@@ -22,7 +22,7 @@ def move_tina():
     show_animatronics()
     screen.ontimer(move_tina,2000)
 
-def
+def scare_tina():
 
 def show_animatronics(cam_num):
     if(cam_num == tina_path[tina_progress]):
