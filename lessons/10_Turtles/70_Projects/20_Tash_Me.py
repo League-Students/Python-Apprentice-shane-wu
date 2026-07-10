@@ -46,6 +46,7 @@ def open_cam_5():
 def exit_cam():
     print("cam exited")
     screen.bgcolor("yellow")
+    show_animatronics(6)
 
 exit_cam()
 
