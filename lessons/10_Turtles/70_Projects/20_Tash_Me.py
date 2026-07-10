@@ -59,7 +59,8 @@ screen.onkey(open_cam_4, "4")
 screen.onkey(open_cam_5, "5")
 screen.onkey(exit_cam, "0")
 
-
+while True:
+    time.sleep(1)
 
 
 
