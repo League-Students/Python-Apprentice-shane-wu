@@ -61,6 +61,7 @@ screen.onkey(exit_cam, "0")
 
 while True:
     time.sleep(1)
+    tina_progress += 1
 
 
 
