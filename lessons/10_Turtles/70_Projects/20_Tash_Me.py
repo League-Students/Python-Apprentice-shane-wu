@@ -40,21 +40,29 @@ def open_cam_2():
     show_animatronics()
 
 def open_cam_3():
+    global cam_num
+    can_num = 3
     print("cam 3 open")
     screen.bgcolor(cam_colors[2])
     show_animatronics()
 
 def open_cam_4():
+    global cam_num
+    can_num = 4
     print("cam 4 open")
     screen.bgcolor(cam_colors[3])
     show_animatronics()
 
 def open_cam_5():
+    global cam_num
+    can_num = 5
     print("cam 5 open")
     screen.bgcolor(cam_colors[4])
     show_animatronics()
 
-def exit_cam():
+def exit_cam():\
+    global cam_num
+    can_num = 0
     print("cam exited")
     screen.bgcolor("yellow")
     show_animatronics()
