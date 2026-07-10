@@ -27,25 +27,30 @@ def show_animatronics(cam_num):
 
 def open_cam_1():
     global cam_num
+    cam_num = 1
     screen.bgcolor(cam_colors[0])
     show_animatronics()
 
 def open_cam_2():
     global cam_num
+    cam_num = 2
     screen.bgcolor(cam_colors[1])
     show_animatronics()
 
 def open_cam_3():
     global cam_num
+    cam_num = 3
     screen.bgcolor(cam_colors[2])
     show_animatronics()
 
 def open_cam_4():
+    cam_num = 3
     global cam_num
     screen.bgcolor(cam_colors[3])
     show_animatronics()
 
 def open_cam_5():
+    
     global cam_num
     screen.bgcolor(cam_colors[4])
     show_animatronics()
