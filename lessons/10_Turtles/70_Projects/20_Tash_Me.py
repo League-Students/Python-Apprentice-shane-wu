@@ -30,7 +30,7 @@ def open_cam_5():
 
 def exit_cam():
     print("cam exited")
-    
+    screen.bgcolor("yellow")
 
 
 screen.listen()
